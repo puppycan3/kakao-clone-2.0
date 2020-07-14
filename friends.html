@@ -11,34 +11,35 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span class="status-bar__clock">13:54</span>
-      </div>
+    <div class="header-top">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span class="status-bar__clock">13:54</span>
+        </div>
 
-      <div class="status-bar__column">
-        <i class="fas fa-clock"></i>
-        <i class="fas fa-volume-mute"></i>
-        <i class="fas fa-wifi"></i>
-        <span class="status-bar__battery-level">100%</span>
-        <i class="fas fa-battery-full"></i>
+        <div class="status-bar__column">
+          <i class="fas fa-clock"></i>
+          <i class="fas fa-volume-mute"></i>
+          <i class="fas fa-wifi"></i>
+          <span class="status-bar__battery-level">100%</span>
+          <i class="fas fa-battery-full"></i>
+        </div>
       </div>
+      <header class="header">
+        <div class="header__header-columns">
+          <h1 class="header__title">친구</h1>
+        </div>
+        <div class="header__header-columns">
+          <span class="header__icon">
+            <i class="fas fa-search"></i>
+          </span>
+
+          <span class="header__icon">
+            <i class="fas fa-cog"></i>
+          </span>
+        </div>
+      </header>
     </div>
-
-    <header class="header">
-      <div class="header__header-columns">
-        <h1 class="header__title">Friends</h1>
-      </div>
-      <div class="header__header-columns">
-        <span class="header__icon">
-          <i class="fas fa-search"></i>
-        </span>
-
-        <span class="header__icon">
-          <i class="fas fa-cog"></i>
-        </span>
-      </div>
-    </header>
     <main class="friends">
       <header class="friends__header">
         <div class="friends__friend friend">
@@ -48,8 +49,8 @@
               <span class="friend__name">
                 lee min sub
               </span>
-              <span class="friend_status">
-                Practice kakao
+              <span class="friend__status">
+                Kakao-Dark Theme Practice
               </span>
             </div>
           </div>
@@ -59,10 +60,30 @@
         <h5 class="friends__title">Plus friend</h5>
         <div class="friends__friend friend">
           <div class="friend__column">
-            <img src="images/cute.jpg" class="friend__avatar" />
+            <img src="images/steam.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
-                Plus Friend
+                STEAM
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="friends__friend friend">
+          <div class="friend__column">
+            <img src="images/LOL.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                LOL+
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="friends__friend friend">
+          <div class="friend__column">
+            <img src="images/cytus2.png" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Cytus2
               </span>
             </div>
           </div>
@@ -100,7 +121,8 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link"
-            ><i class="far fa-comment"></i
+            ><div class="nav__badge">8</div>
+            <i class="far fa-comment"></i
           ></a>
         </li>
         <li class="nav__list-item">

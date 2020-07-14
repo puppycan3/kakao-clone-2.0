@@ -11,32 +11,34 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span class="status-bar__clock">13:54</span>
+    <div class="header-top">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span class="status-bar__clock">13:54</span>
+        </div>
+        <div class="status-bar__column">
+          <i class="fas fa-clock"></i>
+          <i class="fas fa-volume-mute"></i>
+          <i class="fas fa-wifi"></i>
+          <span class="status-bar__battery-level">100%</span>
+          <i class="fas fa-battery-full"></i>
+        </div>
       </div>
-      <div class="status-bar__column">
-        <i class="fas fa-clock"></i>
-        <i class="fas fa-volume-mute"></i>
-        <i class="fas fa-wifi"></i>
-        <span class="status-bar__battery-level">100%</span>
-        <i class="fas fa-battery-full"></i>
-      </div>
-    </div>
-    <header class="header">
-      <div class="header__header-columns">
-        <h1 class="header__title">Find</h1>
-      </div>
-      <div class="header__header-columns">
-        <span class="header__icon">
-          <i class="fas fa-search"></i>
-        </span>
+      <header class="header">
+        <div class="header__header-columns">
+          <h1 class="header__title">찾기</h1>
+        </div>
+        <div class="header__header-columns">
+          <span class="header__icon">
+            <i class="fas fa-search"></i>
+          </span>
 
-        <span class="header__icon">
-          <i class="fas fa-cog"></i>
-        </span>
-      </div>
-    </header>
+          <span class="header__icon">
+            <i class="fas fa-cog"></i>
+          </span>
+        </div>
+      </header>
+    </div>
     <main class="find">
       <header class="find__header">
         <ul class="find__header-list">
@@ -45,7 +47,7 @@
               <i class="fas fa-qrcode fa-2x"></i>
             </span>
             <span class="header-btn__title">
-              QR Code
+              QR 코드
             </span>
           </li>
           <li class="find__header-btn header-btn">
@@ -53,7 +55,7 @@
               <i class="fas fa-user-plus fa-2x"></i>
             </span>
             <span class="header-btn__title">
-              Add by Contacts
+              연락처로 찾기
             </span>
           </li>
           <li class="find__header-btn header-btn">
@@ -61,7 +63,7 @@
               <i class="fas fa-passport fa-2x"></i>
             </span>
             <span class="header-btn__title">
-              Add by Id
+              아이디로 찾기
             </span>
           </li>
           <li class="find__header-btn header-btn">
@@ -69,21 +71,66 @@
               <i class="far fa-envelope fa-2x"></i>
             </span>
             <span class="header-btn__title">
-              Invite
+              초대
             </span>
           </li>
         </ul>
       </header>
       <ul class="find__recommended">
         <h5 class="find__title">
-          Recommended Friends
+          추천 친구
         </h5>
         <li class="find__friend friend friend--lg">
           <div class="friend__column">
-            <img src="images/cute.jpg" class="friend__avatar" />
+            <img src="images/python.png" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
-                lee min sub
+                Python
+              </span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__add-btn">
+              <i class="fas fa-user-plus"></i>
+            </div>
+          </div>
+        </li>
+        <li class="find__friend friend friend--lg">
+          <div class="friend__column">
+            <img src="images/nomadcoder.png" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Nomad Coder
+              </span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__add-btn">
+              <i class="fas fa-user-plus"></i>
+            </div>
+          </div>
+        </li>
+        <li class="find__friend friend friend--lg">
+          <div class="friend__column">
+            <img src="images/github.png" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                GitHub
+              </span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__add-btn">
+              <i class="fas fa-user-plus"></i>
+            </div>
+          </div>
+        </li>
+        <li class="find__friend friend friend--lg">
+          <div class="friend__column">
+            <img src="images/java.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Java
               </span>
             </div>
           </div>
@@ -104,7 +151,8 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link"
-            ><i class="far fa-comment"></i
+            ><div class="nav__badge">8</div>
+            <i class="far fa-comment"></i
           ></a>
         </li>
         <li class="nav__list-item">

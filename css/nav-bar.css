@@ -2,10 +2,9 @@
   position: fixed;
   width: 100%;
   padding: 20px 50px;
-  background-color: #fcfcfc;
-  bottom: 10px;
+  background-color: #323232;
+  bottom: 0px;
   left: 0px;
-  border-top: 1px solid #f7f7f7;
 }
 
 .nav .nav__list {
@@ -15,6 +14,7 @@
 
 .nav i {
   font-size: 20px;
+  color: rgb(230, 230, 230);
 }
 
 .nav .nav__list-link {

@@ -1,5 +1,5 @@
 .header-wrapper {
-  background-color: white;
+  background-color: #323232;
   padding: 5px 0px;
   position: fixed;
   top: 0px;
@@ -9,7 +9,7 @@
 
 .chats-body {
   padding: 0;
-  padding-top: 140px;
+  padding-top: 99px;
 }
 
 .chats-body .header,
@@ -18,7 +18,7 @@
 }
 
 .chats-body {
-  background-image: url("../images/chatBg.png");
+  background-color: rgb(39, 39, 39);
   min-height: 1000vh;
 }
 
@@ -32,6 +32,9 @@
   right: 0;
   margin: 0 auto;
   width: 100%;
+}
+.chat__write--container input {
+  background-color: #323232;
 }
 
 .chat__icon-left {
@@ -104,15 +107,13 @@
 }
 
 .chat-screen .chat__messages {
-  border-top: 1px solid #f7f7f7;
   padding-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px 20px;
 }
 .chat__messages .chat__timestamp {
-  background-color: white;
+  background-color: rgb(49, 49, 49);
   font-size: 12px;
   padding: 5px 20px;
   border-radius: 10px;
@@ -182,13 +183,13 @@
 
 .incoming-message .message__bubble {
   border-bottom-left-radius: 0px;
-  background-image: linear-gradient(to right, #00c6ff, #0072ff);
-  color: white;
+  background-color: rgb(49, 49, 49);
+  color: rgb(230, 230, 230);
 }
 .sent-message .message__bubble {
   border-bottom-right-radius: 0px;
-  background-image: linear-gradient(to left, #00c6ff, #0072ff);
-  color: white;
+  background-image: linear-gradient(to left, #f2994a, #f2c94c);
+  color: rgb(74, 74, 74);
 }
 
 @keyframes incomingAnim {
